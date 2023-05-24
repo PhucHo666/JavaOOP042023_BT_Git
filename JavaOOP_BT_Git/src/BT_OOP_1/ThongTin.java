@@ -6,8 +6,9 @@ public class ThongTin {
 
         System.out.println("Tên nhân viên là: " + nhanvien.getName());
         System.out.println("Tuổi nhân viên là: " + nhanvien.getAge());
-        System.out.println("Địa chỉ của nhân viên ở: " + nhanvien.getAddress());
-        System.out.println("ID của nhân viên là: " + nhanvien.getID());
+        System.out.println("================================================================");
+        System.out.println("Địa chỉ của nhân viên ở: " + new NhanVien().getAddress());
+        System.out.println("ID của nhân viên là: " + new NhanVien().getID());
 
     }
 
