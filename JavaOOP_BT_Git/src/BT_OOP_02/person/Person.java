@@ -14,7 +14,7 @@ public class Person {
         this.address = address;
         this.phone = phone;
     }
-Submit BT_OOP_02
+
     public Person() {
 
     }
