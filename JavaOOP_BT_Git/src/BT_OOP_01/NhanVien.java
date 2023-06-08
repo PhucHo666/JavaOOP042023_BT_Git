@@ -1,4 +1,4 @@
-package BT_OOP_1;
+package BT_OOP_01;
 
 public class NhanVien {
     String name = "Phuc";

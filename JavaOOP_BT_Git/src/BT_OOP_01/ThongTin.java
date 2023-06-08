@@ -1,4 +1,4 @@
-package BT_OOP_1;
+package BT_OOP_01;
 
 public class ThongTin {
     public static void main(String[] args) {
