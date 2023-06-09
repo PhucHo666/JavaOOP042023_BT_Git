@@ -1,4 +1,4 @@
-package BT_OOP_03.common;
+package phucho.BT_OOP_03.common;
 
 public class Constants {
     static String browser = "Chrome";
