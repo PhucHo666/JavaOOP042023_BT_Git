@@ -7,13 +7,20 @@ public class BaseTest extends Constants {
     }
 
     public void createDriver(){
-        System.out.println("Browser: " + getBrowser());
-        System.out.println("Report: " + isReport());
-        System.out.println("Headless: " + isHeadless());
+        System.out.println("Open Browser: " + getBrowser());
+        System.out.println("Open Report: " + isReport());
+        System.out.println("Headless mode: " + isHeadless());
     }
 
     public void closeDriver(){
-        Constants constants = new Constants("Chrome");
-        System.out.println("Close browser" + browser);
+        System.out.println("Close browser: " + getBrowser());
     }
-}
+
+    public void closeDriver(String browser){
+        //Constants constants = new Constants("Chrome");
+        System.out.println("Close browser: " + getBrowser());
+    }
+
+
+    }
+

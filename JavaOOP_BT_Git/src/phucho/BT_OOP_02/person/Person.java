@@ -14,34 +14,29 @@ public class Person {
         this.address = address;
         this.phone = phone;
     }
-
     public Person(String name, int age, String gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
     }
 
-    public Person() {
-
-    }
-
-    protected String getName() {
+    public String getName() {
         return name;
     }
 
-    protected int getAge() {
+    public int getAge() {
         return age;
     }
 
-    protected String getGender() {
+    public String getGender() {
         return gender;
     }
 
-    private String getAddress() {
+    protected String getAddress() {
         return address;
     }
 
-    private int getPhone() {
+    protected int getPhone() {
         return phone;
     }
     protected void getInfoPerson(){
@@ -51,7 +46,7 @@ public class Person {
         System.out.println("Address: " + getAddress());
         System.out.println("Phone: " + getPhone());
     }
-    public void getInfoCompany(){
+    public void getInfoCompanyClass(){
         System.out.println("Name: " + getName());
         System.out.println("Age: " + getAge());
         System.out.println("Gender: " + getGender());

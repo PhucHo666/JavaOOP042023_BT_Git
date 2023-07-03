@@ -1,14 +1,17 @@
 package phucho.BT_OOP_03.common;
 
 public class Constants {
-    static String browser = "Chrome";
-    static boolean report;
+    public static String browser = "Chrome";
+    public static Boolean report = true;
 
-    static boolean headless;
+    public static void setBrowser(String browser) {
+        Constants.browser = browser;
+    }
+
+    public static Boolean headless = false;
 
     public Constants(String browser){
         Constants.browser = browser;
-
     }
 
     public static String getBrowser() {
@@ -18,8 +21,6 @@ public class Constants {
     public static boolean isReport() {
         return report;
     }
-
-
 
     public static boolean isHeadless() {
         return headless;

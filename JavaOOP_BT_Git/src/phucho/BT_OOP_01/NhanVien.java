@@ -1,10 +1,10 @@
 package phucho.BT_OOP_01;
 
 public class NhanVien {
-    String name;
-    String address;
-    int age;
-    int ID;
+    private String name;
+    private String address;
+    private int age;
+    private int ID;
 
     public NhanVien(String name, String address, int age, int ID) {
         this.name = name;
@@ -31,8 +31,8 @@ public class NhanVien {
 
     public void getInfo(){
         System.out.println("Name: " + getName());
-        System.out.println("Address: " + getAddress());
         System.out.println("Age: " + getAge());
+        System.out.println("Address: " + getAddress());
         System.out.println("ID: " + getID());
     }
 }
